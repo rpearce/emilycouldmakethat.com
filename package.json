@@ -5,7 +5,7 @@
   "repository": "git@github.com:rpearce/emilycouldmakethat.com.git",
   "author": "Robert Pearce <me@robertwpearce.com>",
   "license": "MIT",
-  "dependencies": {
-    "favicon-emoji": "^2.3.0"
+  "devDependencies": {
+    "favicon-emoji": "2.3.0"
   }
 }
