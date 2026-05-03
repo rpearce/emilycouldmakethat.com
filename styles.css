@@ -10,12 +10,12 @@
   --font-body: "EB Garamond", Georgia, serif;
   --font-heading: "EB Garamond", Georgia, serif;
   --font-title: "Playball", cursive;
-  --max-width: 1100px;
-  --space-xs: 0.5rem;
-  --space-sm: 1rem;
-  --space-md: 1.5rem;
-  --space-lg: 2.5rem;
-  --space-xl: 4rem;
+  --max-width: 110rem;
+  --space-xs: 0.8rem;
+  --space-sm: 1.6rem;
+  --space-md: 2.4rem;
+  --space-lg: 4rem;
+  --space-xl: 6.4rem;
 }
 
 *,
@@ -25,13 +25,14 @@
 }
 
 html {
+  font-size: 62.5%;
   -webkit-text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
   font-family: var(--font-body);
-  font-size: 1.0625rem;
+  font-size: 1.7rem;
   line-height: 1.7;
   color: var(--color-text);
   background: var(--color-bg);
@@ -46,7 +47,7 @@ img {
 a {
   color: var(--color-accent);
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-underline-offset: 0.2rem;
 }
 
 a:hover {
@@ -54,8 +55,8 @@ a:hover {
 }
 
 a:focus-visible {
-  outline: 3px solid var(--color-focus);
-  outline-offset: 2px;
+  outline: 0.3rem solid var(--color-focus);
+  outline-offset: 0.2rem;
 }
 
 h1, h2, h3, h4 {
@@ -66,9 +67,9 @@ h1, h2, h3, h4 {
   margin-top: 0;
 }
 
-h1 { font-size: 2.25rem; }
-h2 { font-size: 1.75rem; }
-h3 { font-size: 1.35rem; }
+h1 { font-size: 3.6rem; }
+h2 { font-size: 2.8rem; }
+h3 { font-size: 2.16rem; }
 
 p { margin-top: 0; }
 
@@ -128,7 +129,7 @@ p { margin-top: 0; }
 
 .site-title {
   font-family: var(--font-title);
-  font-size: 1.5rem;
+  font-size: 2.4rem;
   font-weight: 400;
   text-decoration: none;
   color: var(--color-text);
@@ -152,12 +153,12 @@ p { margin-top: 0; }
 
 .site-nav a {
   font-family: var(--font-heading);
-  font-size: 0.9rem;
+  font-size: 1.44rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   text-decoration: none;
   color: var(--color-text-light);
-  padding: 0.25rem 0;
+  padding: 0.4rem 0;
   display: inline-block;
 }
 
@@ -183,8 +184,8 @@ p { margin-top: 0; }
 
 .page-header p {
   color: var(--color-text-light);
-  font-size: 1.125rem;
-  max-width: 600px;
+  font-size: 1.8rem;
+  max-width: 60rem;
   margin: var(--space-sm) auto 0;
 }
 
@@ -192,7 +193,7 @@ p { margin-top: 0; }
 
 .post-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(30rem, 100%), 1fr));
   gap: var(--space-lg);
   list-style: none;
   padding: 0;
@@ -237,7 +238,7 @@ p { margin-top: 0; }
 .post-card-date {
   display: block;
   font-family: var(--font-heading);
-  font-size: 0.85rem;
+  font-size: 1.36rem;
   color: var(--color-text-light);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -245,7 +246,7 @@ p { margin-top: 0; }
 
 .post-card-title {
   font-family: var(--font-heading);
-  font-size: 1.15rem;
+  font-size: 1.84rem;
   font-weight: 700;
   margin: var(--space-xs) 0 0;
   transition: color 0.2s ease;
@@ -254,13 +255,13 @@ p { margin-top: 0; }
 /* Single blog post */
 
 .post-article {
-  max-width: 720px;
+  max-width: 72rem;
   margin: 0 auto;
 }
 
 .post-meta {
   font-family: var(--font-heading);
-  font-size: 0.875rem;
+  font-size: 1.4rem;
   color: var(--color-text-light);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -304,7 +305,7 @@ p { margin-top: 0; }
 }
 
 .post-content figcaption {
-  font-size: 0.875rem;
+  font-size: 1.4rem;
   color: var(--color-text-light);
   text-align: center;
   margin-top: var(--space-xs);
@@ -347,8 +348,8 @@ p { margin-top: 0; }
 
 .post-nav a {
   font-family: var(--font-heading);
-  font-size: 0.9rem;
-  padding: 0.25rem 0;
+  font-size: 1.44rem;
+  padding: 0.4rem 0;
 }
 
 .post-nav-next {
@@ -362,25 +363,25 @@ p { margin-top: 0; }
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--space-lg);
-  max-width: 720px;
+  max-width: 72rem;
   margin: 0 auto;
 }
 
 .about-photo {
-  max-width: 400px;
+  max-width: 40rem;
   margin: 0 auto;
 }
 
 /* Contact page */
 
 .contact-content {
-  max-width: 600px;
+  max-width: 60rem;
   margin: 0 auto;
   text-align: center;
 }
 
 .contact-content a {
-  font-size: 1.125rem;
+  font-size: 1.8rem;
 }
 
 /* Social links */
@@ -397,12 +398,12 @@ p { margin-top: 0; }
 
 .social-links a {
   font-family: var(--font-heading);
-  font-size: 0.875rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   text-decoration: none;
   color: var(--color-text-light);
-  padding: 0.25rem 0;
+  padding: 0.4rem 0;
   display: inline-block;
 }
 
@@ -430,7 +431,7 @@ p { margin-top: 0; }
 
 .site-footer p {
   font-family: var(--font-heading);
-  font-size: 0.8rem;
+  font-size: 1.28rem;
   color: var(--color-text-light);
 }
 
@@ -447,7 +448,7 @@ p { margin-top: 0; }
 
 /* Responsive: tablet */
 
-@media (max-width: 900px) {
+@media (max-width: 56.25em) {
   .post-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -455,9 +456,9 @@ p { margin-top: 0; }
 
 /* Responsive: mobile */
 
-@media (max-width: 600px) {
-  h1 { font-size: 1.75rem; }
-  h2 { font-size: 1.4rem; }
+@media (max-width: 37.5em) {
+  h1 { font-size: 2.8rem; }
+  h2 { font-size: 2.24rem; }
 
   .site-header-inner {
     flex-direction: column;
