@@ -195,6 +195,15 @@ p { margin-top: 0; }
   margin: var(--space-sm) auto 0;
 }
 
+.page-header--left {
+  text-align: left;
+}
+
+.view-all {
+  text-align: center;
+  margin-top: var(--space-lg);
+}
+
 /* Post grid (homepage + blog listing) */
 
 .post-grid {
@@ -422,6 +431,10 @@ p { margin-top: 0; }
 
 .social-links a:hover {
   color: var(--color-text);
+}
+
+.social-links--spaced {
+  margin-bottom: var(--space-lg);
 }
 
 /* Video CTA banner */
